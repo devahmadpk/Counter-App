@@ -1,0 +1,59 @@
+
+button {
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid #CDD4E1;
+    margin: 30px;
+}
+
+.control {
+    height: 70px;
+    width: 70px;
+    font-size: 40px;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset {
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 530px) {
+    .control {
+        height: 50px;
+        width: 50px;
+        font-size: 30px;
+    }
+    
+    .reset {
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    button {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    button {
+        margin: 10px;
+    }
+
+    .control {
+        height: 40px;
+        width: 40px;
+        font-size: 24px;
+    }
+    
+    .reset {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+}
